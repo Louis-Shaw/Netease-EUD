@@ -184,3 +184,41 @@ type ;</pre></td>
 			<th>返回数据说明</th><td>正确返回1后设置关注cookie（followSuc）<pre><code></code>	</pre></td>
 		</tr>
 	</table>
+	
+###2.4用户登录
+
+<table>
+		<tr>
+			<th>请求地址方式</th><td>http://study.163.com /webDev/login.htm</td>
+		</tr>
+		<tr>
+			<th>请求方式</th><td>get</td>
+		</tr>
+		<tr>
+			<th>请求参数</th><td><pre>userName;
+password;</pre></td>
+		</tr>
+		<tr>
+			<th>请求参数说明</th><td><pre>
+固定用户帐号：studyOnline ;
+固定用户密码：study.163.com ;
+使用Md5加密该用户数据 ;
+			</pre></td>
+		</tr>
+		<tr>
+			<th>返回</th><td>整型</td>
+		</tr>
+		<tr>
+			<th>返回数据说明</th><td><pre><code></code>1  //匹配用户名密码成功
+0  //匹配用户名密码失败</pre></td>
+		</tr>
+	</table>
+	
+###2.5右侧“机构介绍”视频
+
+<table>
+		<tr>
+			<th>请求地址方式</th><td>http://mov.bn.netease.com/open-movie/nos/mp4/2014/12/30/SADQ86F5S_shd.mp4</td>
+		</tr>
+		
+	</table>

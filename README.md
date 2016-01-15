@@ -116,3 +116,46 @@ type ;</pre></td>
  	</code>	</pre></td>
 		</tr>
 	</table>
+	
+###2.2右侧“最热排行”
+
+<table>
+		<tr>
+			<th>请求地址方式</th><td>http://study.163.com /webDev/hotcouresByCategory.htm</td>
+		</tr>
+		<tr>
+			<th>请求方式</th><td>get</td>
+		</tr>
+		<tr>
+			<th>请求参数</th><td><pre>无</pre></td>
+		</tr>
+		<tr>
+			<th>请求参数说明</th><td><pre>
+无
+			</pre></td>
+		</tr>
+		<tr>
+			<th>返回</th><td>课程列表数据（JSON格式字符串，需要转成数组才能在程序中使用）</td>
+		</tr>
+		<tr>
+			<th>返回数据说明</th><td>需要显示的字段如下：<pre><code>
+	
+[{
+   "id":"967019",//课程ID
+ "name":"和秋叶一起学职场技能",//课程名称
+ "bigPhotoUrl":"http://img1.ph.126.net/eg62.png",//课程大图
+ "middlePhotoUrl ":"http://img1.ph.126.net/eg62.png",//课程中图
+ "smallPhotoUrl":" http://img1.ph.126.net/eg62.png ",//课程小图
+ "provider ":"秋叶",//机构发布者
+ "learnerCount ":"23",//在学人数
+ "price ":"128",//课程价格，0为免费
+ "categoryName ":"办公技能",//课程分类
+ "description ":"适用人群：最适合即将实习、求职、就职的大学生，入职一、二三年的新人。
+ 别以为那些职场老人都知道！"//课程描述
+}]
+
+
+ 
+		</code>	</pre></td>
+		</tr>
+	</table>

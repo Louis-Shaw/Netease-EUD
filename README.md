@@ -159,3 +159,28 @@ type ;</pre></td>
 		</code>	</pre></td>
 		</tr>
 	</table>
+
+###2.3导航关注
+
+<table>
+		<tr>
+			<th>请求地址方式</th><td>http://study.163.com /webDev/ attention.htm</td>
+		</tr>
+		<tr>
+			<th>请求方式</th><td>get</td>
+		</tr>
+		<tr>
+			<th>请求参数</th><td><pre>无</pre></td>
+		</tr>
+		<tr>
+			<th>请求参数说明</th><td><pre>
+无
+			</pre></td>
+		</tr>
+		<tr>
+			<th>返回</th><td>1</td>
+		</tr>
+		<tr>
+			<th>返回数据说明</th><td>正确返回1后设置关注cookie（followSuc）<pre><code></code>	</pre></td>
+		</tr>
+	</table>

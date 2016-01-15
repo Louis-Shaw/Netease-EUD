@@ -65,3 +65,31 @@ Education
 根据浏览器窗口宽度，适应两种视觉布局尺寸。窗口宽度<1205时，使用小屏视觉布局；窗口宽度>=1205时，使用大屏视觉布局。布局示意图
 见视觉效果
 ##2前后端交互接口说明
+<table>
+		<tr>
+			<th>请求地址方式</th><td>http://study.163.com /webDev/couresByCategory.htm</td>
+		</tr>
+		<tr>
+			<th>请求方式</th><td>get</td>
+		</tr>
+		<tr>
+			<th>请求参数</th><td><pre>pageNo ; 
+psize ; 
+type ;</pre></td>
+		</tr>
+		<tr>
+			<th>请求参数说明</th><td><pre>
+当前页码 ;
+每页返回数据个数 ;
+筛选类型（10：产品设计；20：编程语言） ;
+			</pre></td>
+		</tr>
+		<tr>
+			<th>返回</th><td>课程列表数据（JSON格式字符串，需要转成对象才能在程序中使用）</td>
+		</tr>
+		<tr>
+			<th>返回数据说明</th><td>需要显示的字段如下：
+{
+ “totalCount”: 80,//返回的数据总数</td>
+		</tr>
+	</table>

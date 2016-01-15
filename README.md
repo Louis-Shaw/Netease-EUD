@@ -65,7 +65,7 @@ Education
 根据浏览器窗口宽度，适应两种视觉布局尺寸。窗口宽度<1205时，使用小屏视觉布局；窗口宽度>=1205时，使用大屏视觉布局。布局示意图
 见视觉效果
 ##2前后端交互接口说明
-<table>
+	<table>
 		<tr>
 			<th>请求地址方式</th><td>http://study.163.com /webDev/couresByCategory.htm</td>
 		</tr>
@@ -88,8 +88,29 @@ type ;</pre></td>
 			<th>返回</th><td>课程列表数据（JSON格式字符串，需要转成对象才能在程序中使用）</td>
 		</tr>
 		<tr>
-			<th>返回数据说明</th><td>需要显示的字段如下：
+			<th>返回数据说明</th><td>需要显示的字段如下：<pre><code>
+			
 {
- “totalCount”: 80,//返回的数据总数</td>
+ “totalCount”: 80,//返回的数据总数
+ “totalPage”: 8,//返回的数据总页数
+ “pagination”: {
+“pageIndex” : 1, //当前页码
+“pageSize” : 10, //每页的数据个数
+“totlePageCount”: //总页数
+             },
+ “list” : [{"id":"967019",//课程ID
+ "name":"和秋叶一起学职场技能",//课程名称
+ "bigPhotoUrl":"http://img1.ph.126.net/eg62.png",//课程大图
+ " middlePhotoUrl ":"http://img1.ph.126.net/eg62.png",//课程中图
+ "smallPhotoUrl":" http://img1.ph.126.net/eg62.png ",//课程小图
+ " provider ":"秋叶",//机构发布者
+ " learnerCount ":"23",//在学人数
+ " price ":"128",//课程价格，0为免费
+ "categoryName ":"办公技能",//课程分类
+ "description ":"适用人群：最适合即将实习、求职、就职的大学生，入职一、二三年的新人。别以为那些职场老人都知道！"//课程描述
+}]
+}
+ 
+		</code>	</pre></td>
 		</tr>
 	</table>
